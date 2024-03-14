@@ -88,15 +88,17 @@ p {
 }
 
 @media (max-width: 576px) {
-  .homepage img {
-    display: none;
-  }
-
   p {
     text-align: center;
   }
 
   .project-button {
+    text-align: center;
+    display: block;
+    margin: 0 20;
+  }
+
+  .homepage h2 {
     text-align: center;
   }
 
